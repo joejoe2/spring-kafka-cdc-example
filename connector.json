@@ -1,0 +1,18 @@
+{
+  "name": "producer-db-connector",  
+  "config": {
+    "connector.class": "io.debezium.connector.postgresql.PostgresConnector",
+    "topic.prefix": "spring-kafka-cdc-example",
+    "key.converter": "org.apache.kafka.connect.json.JsonConverter",
+    "key.converter.schemas.enable": "false",
+    "value.converter": "org.apache.kafka.connect.json.JsonConverter",
+    "value.converter.schemas.enable": "false",
+    "database.hostname": "producer-db",
+    "database.port": "5432", 
+    "database.user": "postgres", 
+    "database.password": "root_password", 
+    "database.dbname" : "producer", 
+    "database.server.name": "producer-db", 
+    "table.include.list": "public.event"
+  }
+}

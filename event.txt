@@ -1,0 +1,24 @@
+{
+	"before": null,
+	"after": {
+		"id": "212087",
+		"content": "owqgysrzsqyeqdiovrxcprjutwcycyjnvovmwnsotvonkwiqdhhocnolgykwmkufaotlnyfccyacfsabuysmragkvtdvkifmfnsduhuhn"
+	},
+	"source": {
+		"version": "2.0.0.Final",
+		"connector": "postgresql",
+		"name": "spring-kafka-cdc-example",
+		"ts_ms": 1668340256180,
+		"snapshot": "false",
+		"db": "producer",
+		"sequence": "[\"23895272\",\"23895272\"]",
+		"schema": "public",
+		"table": "event",
+		"txId": 508,
+		"lsn": 23895272,
+		"xmin": null
+	},
+	"op": "c",
+	"ts_ms": 1668340256656,
+	"transaction": null
+}
